@@ -75,6 +75,7 @@ function loadTrack(i, autoplay = false) {
   else setPlayingUI(false);
 }
 
+
 function play() {
   if (!audio.src) return;
   audio.play().catch(err => {
